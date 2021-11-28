@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/*
+各要素に背景色をつけてください。要素と背景色の対応は下記
+「要素と背景色の対応」の表を参照してください。
+
+ブラウザのウィンドウを縮小した場合も、#mainが700px、#menuは300pxで
+表示されるようにしてください。
+このことから、header、footerの横幅は、1000pxとなります。
+
+*/
+
+
+header {
+    background-color: #ffcccc;
+    width: 1000px;
+   
+   
+}
+
+#main {
+    background-color: #ccffcc;
+    width: 700px;
+   /* margin: 0; */
+    
+}
+
+#menu {
+    background-color: #ccccff;
+    width: 300px;
+    
+}
+
+footer {
+    background-color: #ffccff;
+    width: 1000px;
+    
+}
+
+#wrapper {
+    width: 1000px;
+    display: flex;　
+    
+    
+}
